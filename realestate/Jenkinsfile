@@ -8,7 +8,7 @@ pipeline {
             steps{
                  cleanWs()
                  checkout scm
-                echo "Building ${env.project1}..."
+                echo "Building ${env.devopsproject_1}..."
             }
         }
         
